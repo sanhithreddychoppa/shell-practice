@@ -16,6 +16,7 @@ VALIDATE(){
     fi
 }
 
+
 dnf install nginx -y
 VALIDATE $? "Installing Nginx"
 
